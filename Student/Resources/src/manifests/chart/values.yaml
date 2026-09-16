@@ -1,6 +1,6 @@
 api:
   image:
-    repository: <ACR_LOGIN_SERVER>/fabtech-api
+    repository: acrhackathon.azurecr.io/fabtech-api
     tag: v1
     pullPolicy: IfNotPresent
   replicaCount: 2
@@ -19,7 +19,7 @@ api:
 
 web:
   image:
-    repository: <ACR_LOGIN_SERVER>/fabtech-web
+    repository: acrhackathon.azurecr.io/fabtech-web
     tag: v1
     pullPolicy: IfNotPresent
   replicaCount: 2
